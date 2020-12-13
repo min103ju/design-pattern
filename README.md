@@ -1,2 +1,3 @@
-# code-design
-code-design
+# design-pattern
+
+To learn code design pattern
