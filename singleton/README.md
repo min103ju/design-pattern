@@ -1,4 +1,4 @@
-#SingleTon Pattern
+# SingleTon Pattern
 
 - 어떤 클래스의 객체가 해당 프로세스 내에게 딱 한개만 만들어져 있어야 하는 경우에 해당한다.
 

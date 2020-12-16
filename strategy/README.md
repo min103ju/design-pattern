@@ -1,4 +1,4 @@
-#Strategy Pattern
+# Strategy Pattern
 
 - 특정 동일 기능의 모드(strategy)만을 바꿔 사용하는 패턴
 - 모드 별로 동일한 기능(abstract method)를 사용하는 경우
