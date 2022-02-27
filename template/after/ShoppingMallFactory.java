@@ -5,16 +5,16 @@ package template.after;
  */
 public class ShoppingMallFactory {
 
-    public ShoppingMall getInstance(ShoppingMallType type) {
+    public static ShoppingMall getInstance(ShoppingMallType type) {
         switch (type) {
             case AUCTION:
+                return new AuctionOrder();
             case GMARKET :
-            case TMON :
+                return new GmarketOrder();
             case COUPANG :
+                return new CoupangOrder();
             default:
+                throw new IllegalArgumentException("적합한 쇼핑몰이 아닙니다.");
         }
-
-        return null;
     }
-
 }
